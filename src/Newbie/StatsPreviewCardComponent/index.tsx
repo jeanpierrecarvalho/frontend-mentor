@@ -6,7 +6,7 @@ import imgMobile from "./assets/images/image-header-mobile.jpg";
 function StatsPreviewCardComponent() {
   return (
     <div className="flex h-screen w-screen bg-[#0A0C1C] justify-center items-center">
-      <div className="w-[327px] h-[780px] md:w-[1100px] md:h-[446px] bg-[#1b1937]">
+      <div className="w-[327px] h-[780px] md:w-[1100px] md:h-[446px] bg-[#1b1937] rounded-[8px]">
         <div className="flex md:flex-row flex-col-reverse ">
           <div className="flex flex-col md:w-[560px] md:pl-[71.5px] text-center md:text-left">
             <div className="text-display mt-[40px] md:mt-[71px] md:w-[403px] px-[31.5px] md:px-[0px]">
@@ -38,15 +38,15 @@ function StatsPreviewCardComponent() {
               </div>
             </div>
           </div>
-          <div className="md:w-[540px] bg-[#AB5CDB] opacity-75">
+          <div className="md:w-[540px] bg-[#AB5CDB] opacity-75 rounded-t-[8px] md:rounded-r-[8px]">
             <img
               src={imgDesktop}
-              className="hidden md:block w-full mix-blend-multiply "
+              className="hidden md:block w-full mix-blend-multiply rounded-r-[8px]"
               alt={"Some alt"}
             />
             <img
               src={imgMobile}
-              className="block md:hidden w-full mix-blend-multiply "
+              className="block md:hidden w-full mix-blend-multiply rounded-t-[8px]"
               alt={"Some alt"}
             />
           </div>

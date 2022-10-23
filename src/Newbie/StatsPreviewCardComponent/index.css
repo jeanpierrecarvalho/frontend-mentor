@@ -8,7 +8,7 @@
   font-family: Inter;
   @apply text-[28px] md:text-[36px];
   @apply font-bold;
-  @apply text-[32px] md:leading-[44px];
+  @apply leading-[32px] md:leading-[44px];
   @apply text-[#FFFFFF];
 }
 
@@ -17,7 +17,7 @@
   @apply text-[15px];
   @apply font-normal;
   @apply leading-[25px];
-  @apply text-[#a4a3af];
+  @apply text-[#ffffff] opacity-75;
 }
 
 .text-overline {
