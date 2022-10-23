@@ -28,3 +28,8 @@
   @apply tracking-[1px];
   @apply text-[#a4a3af];
 }
+
+.imgDesktop {
+  mix-blend-mode: multiply;
+  opacity: 0.75;
+}
