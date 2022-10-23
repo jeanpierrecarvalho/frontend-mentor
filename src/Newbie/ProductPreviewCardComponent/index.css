@@ -1,3 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.text-display {
+  font-family: Fraunces;
+  @apply text-[32px];
+  @apply font-bold;
+  @apply leading-[32px];
+  @apply text-[#1C232B];
+}
+
+.text-body {
+  font-family: Montserrat;
+  @apply text-[14px];
+  @apply font-medium;
+  @apply leading-[23px];
+  @apply text-[#6C7289];
+}
+
+.text-button-text {
+  font-family: Montserrat;
+  @apply text-[14px];
+  @apply font-bold;
+  @apply text-[#FFFFFF];
+}
+
+.text-overline {
+  font-family: Montserrat;
+  @apply text-[12px];
+  @apply font-medium;
+  @apply leading-[15px];
+  @apply text-[#6C7289];
+}
