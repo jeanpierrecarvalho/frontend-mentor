@@ -4,8 +4,8 @@ import './index.css';
 function ProductPreviewCardComponent() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
+      <header>
+        <p className='text-2xl font-bold underline'>
          asdasdasd
         </p>
         <a
